@@ -16,5 +16,11 @@ namespace JogoBandeiras
         {
             InitializeComponent();
         }
+
+        private void btnDoisJogadores_Click(object sender, EventArgs e)
+        {
+            doisNovosJogadores form = new doisNovosJogadores();
+            form.Show();
+        }
     }
 }

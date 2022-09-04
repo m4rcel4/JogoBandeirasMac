@@ -53,6 +53,7 @@
             this.btnDoisJogadores.TabIndex = 1;
             this.btnDoisJogadores.Text = "2 JOGADORES";
             this.btnDoisJogadores.UseVisualStyleBackColor = false;
+            this.btnDoisJogadores.Click += new System.EventHandler(this.btnDoisJogadores_Click);
             // 
             // btnTresJogadores
             // 
