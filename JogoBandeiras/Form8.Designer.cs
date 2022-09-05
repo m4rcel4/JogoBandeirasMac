@@ -72,25 +72,28 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(37, 34);
+            this.label1.Location = new System.Drawing.Point(28, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 29);
+            this.label1.Size = new System.Drawing.Size(126, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "JOGADOR 2";
             // 
             // txtNomeJog2
             // 
-            this.txtNomeJog2.Location = new System.Drawing.Point(42, 66);
+            this.txtNomeJog2.Location = new System.Drawing.Point(32, 54);
+            this.txtNomeJog2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNomeJog2.Name = "txtNomeJog2";
-            this.txtNomeJog2.Size = new System.Drawing.Size(157, 22);
+            this.txtNomeJog2.Size = new System.Drawing.Size(119, 20);
             this.txtNomeJog2.TabIndex = 1;
             // 
             // btnSlctBand1
             // 
             this.btnSlctBand1.BackColor = System.Drawing.Color.Bisque;
-            this.btnSlctBand1.Location = new System.Drawing.Point(25, 603);
+            this.btnSlctBand1.Location = new System.Drawing.Point(19, 490);
+            this.btnSlctBand1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSlctBand1.Name = "btnSlctBand1";
-            this.btnSlctBand1.Size = new System.Drawing.Size(159, 23);
+            this.btnSlctBand1.Size = new System.Drawing.Size(119, 19);
             this.btnSlctBand1.TabIndex = 2;
             this.btnSlctBand1.Text = "SELECIONAR CARTA";
             this.btnSlctBand1.UseVisualStyleBackColor = false;
@@ -99,56 +102,66 @@
             // btnSlctBand2
             // 
             this.btnSlctBand2.BackColor = System.Drawing.Color.Bisque;
-            this.btnSlctBand2.Location = new System.Drawing.Point(204, 603);
+            this.btnSlctBand2.Location = new System.Drawing.Point(153, 490);
+            this.btnSlctBand2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSlctBand2.Name = "btnSlctBand2";
-            this.btnSlctBand2.Size = new System.Drawing.Size(159, 23);
+            this.btnSlctBand2.Size = new System.Drawing.Size(119, 19);
             this.btnSlctBand2.TabIndex = 3;
             this.btnSlctBand2.Text = "SELECIONAR CARTA";
             this.btnSlctBand2.UseVisualStyleBackColor = false;
+            this.btnSlctBand2.Click += new System.EventHandler(this.btnSlctBand2_Click);
             // 
             // btnSlctBand3
             // 
             this.btnSlctBand3.BackColor = System.Drawing.Color.Bisque;
-            this.btnSlctBand3.Location = new System.Drawing.Point(388, 603);
+            this.btnSlctBand3.Location = new System.Drawing.Point(291, 490);
+            this.btnSlctBand3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSlctBand3.Name = "btnSlctBand3";
-            this.btnSlctBand3.Size = new System.Drawing.Size(159, 23);
+            this.btnSlctBand3.Size = new System.Drawing.Size(119, 19);
             this.btnSlctBand3.TabIndex = 4;
             this.btnSlctBand3.Text = "SELECIONAR CARTA";
             this.btnSlctBand3.UseVisualStyleBackColor = false;
+            this.btnSlctBand3.Click += new System.EventHandler(this.btnSlctBand3_Click);
             // 
             // btnSlctBand4
             // 
             this.btnSlctBand4.BackColor = System.Drawing.Color.Bisque;
-            this.btnSlctBand4.Location = new System.Drawing.Point(573, 603);
+            this.btnSlctBand4.Location = new System.Drawing.Point(430, 490);
+            this.btnSlctBand4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSlctBand4.Name = "btnSlctBand4";
-            this.btnSlctBand4.Size = new System.Drawing.Size(159, 23);
+            this.btnSlctBand4.Size = new System.Drawing.Size(119, 19);
             this.btnSlctBand4.TabIndex = 5;
             this.btnSlctBand4.Text = "SELECIONAR CARTA";
             this.btnSlctBand4.UseVisualStyleBackColor = false;
+            this.btnSlctBand4.Click += new System.EventHandler(this.btnSlctBand4_Click);
             // 
             // btnSlctBand5
             // 
             this.btnSlctBand5.BackColor = System.Drawing.Color.Bisque;
-            this.btnSlctBand5.Location = new System.Drawing.Point(756, 603);
+            this.btnSlctBand5.Location = new System.Drawing.Point(567, 490);
+            this.btnSlctBand5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSlctBand5.Name = "btnSlctBand5";
-            this.btnSlctBand5.Size = new System.Drawing.Size(159, 23);
+            this.btnSlctBand5.Size = new System.Drawing.Size(119, 19);
             this.btnSlctBand5.TabIndex = 6;
             this.btnSlctBand5.Text = "SELECIONAR CARTA";
             this.btnSlctBand5.UseVisualStyleBackColor = false;
+            this.btnSlctBand5.Click += new System.EventHandler(this.btnSlctBand5_Click);
             // 
             // txtNomeJog1
             // 
-            this.txtNomeJog1.Location = new System.Drawing.Point(911, 478);
+            this.txtNomeJog1.Location = new System.Drawing.Point(683, 388);
+            this.txtNomeJog1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNomeJog1.Name = "txtNomeJog1";
-            this.txtNomeJog1.Size = new System.Drawing.Size(152, 22);
+            this.txtNomeJog1.Size = new System.Drawing.Size(115, 20);
             this.txtNomeJog1.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 276);
+            this.label2.Location = new System.Drawing.Point(8, 224);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 16);
+            this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 8;
             // 
             // textBox1
@@ -156,144 +169,159 @@
             this.textBox1.BackColor = System.Drawing.Color.MidnightBlue;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.ForeColor = System.Drawing.Color.MediumTurquoise;
-            this.textBox1.Location = new System.Drawing.Point(-5, 385);
+            this.textBox1.Location = new System.Drawing.Point(-4, 313);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1089, 15);
+            this.textBox1.Size = new System.Drawing.Size(817, 13);
             this.textBox1.TabIndex = 9;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(906, 446);
+            this.label3.Location = new System.Drawing.Point(680, 362);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(158, 29);
+            this.label3.Size = new System.Drawing.Size(126, 24);
             this.label3.TabIndex = 10;
             this.label3.Text = "JOGADOR 1";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Tan;
-            this.pictureBox1.Location = new System.Drawing.Point(25, 632);
+            this.pictureBox1.Location = new System.Drawing.Point(19, 514);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(112, 81);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Tan;
-            this.pictureBox2.Location = new System.Drawing.Point(204, 632);
+            this.pictureBox2.Location = new System.Drawing.Point(153, 514);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox2.Size = new System.Drawing.Size(112, 81);
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Tan;
-            this.pictureBox3.Location = new System.Drawing.Point(388, 632);
+            this.pictureBox3.Location = new System.Drawing.Point(291, 514);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox3.Size = new System.Drawing.Size(112, 81);
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Tan;
-            this.pictureBox4.Location = new System.Drawing.Point(573, 632);
+            this.pictureBox4.Location = new System.Drawing.Point(430, 514);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox4.Size = new System.Drawing.Size(112, 81);
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Tan;
-            this.pictureBox5.Location = new System.Drawing.Point(756, 632);
+            this.pictureBox5.Location = new System.Drawing.Point(567, 514);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox5.Size = new System.Drawing.Size(112, 81);
             this.pictureBox5.TabIndex = 15;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox6.Location = new System.Drawing.Point(428, 418);
+            this.pictureBox6.Location = new System.Drawing.Point(321, 340);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(180, 125);
+            this.pictureBox6.Size = new System.Drawing.Size(135, 102);
             this.pictureBox6.TabIndex = 16;
             this.pictureBox6.TabStop = false;
             // 
             // cartaSelecionadaJog21
             // 
             this.cartaSelecionadaJog21.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.cartaSelecionadaJog21.Location = new System.Drawing.Point(444, 429);
+            this.cartaSelecionadaJog21.Location = new System.Drawing.Point(333, 349);
+            this.cartaSelecionadaJog21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cartaSelecionadaJog21.Name = "cartaSelecionadaJog21";
-            this.cartaSelecionadaJog21.Size = new System.Drawing.Size(150, 100);
+            this.cartaSelecionadaJog21.Size = new System.Drawing.Size(112, 81);
             this.cartaSelecionadaJog21.TabIndex = 17;
             this.cartaSelecionadaJog21.TabStop = false;
             // 
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox8.Location = new System.Drawing.Point(428, 235);
+            this.pictureBox8.Location = new System.Drawing.Point(321, 191);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(180, 125);
+            this.pictureBox8.Size = new System.Drawing.Size(135, 102);
             this.pictureBox8.TabIndex = 18;
             this.pictureBox8.TabStop = false;
             // 
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pictureBox10.Location = new System.Drawing.Point(417, 34);
+            this.pictureBox10.Location = new System.Drawing.Point(313, 28);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox10.Size = new System.Drawing.Size(112, 81);
             this.pictureBox10.TabIndex = 20;
             this.pictureBox10.TabStop = false;
             // 
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pictureBox11.Location = new System.Drawing.Point(573, 34);
+            this.pictureBox11.Location = new System.Drawing.Point(430, 28);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox11.Size = new System.Drawing.Size(112, 81);
             this.pictureBox11.TabIndex = 21;
             this.pictureBox11.TabStop = false;
             // 
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pictureBox12.Location = new System.Drawing.Point(729, 34);
+            this.pictureBox12.Location = new System.Drawing.Point(547, 28);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox12.Size = new System.Drawing.Size(112, 81);
             this.pictureBox12.TabIndex = 22;
             this.pictureBox12.TabStop = false;
             // 
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pictureBox13.Location = new System.Drawing.Point(885, 34);
+            this.pictureBox13.Location = new System.Drawing.Point(664, 28);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox13.Size = new System.Drawing.Size(112, 81);
             this.pictureBox13.TabIndex = 23;
             this.pictureBox13.TabStop = false;
             // 
             // pictureBox
             // 
             this.pictureBox.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pictureBox.Location = new System.Drawing.Point(261, 34);
+            this.pictureBox.Location = new System.Drawing.Point(196, 28);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox.Size = new System.Drawing.Size(112, 81);
             this.pictureBox.TabIndex = 24;
             this.pictureBox.TabStop = false;
             // 
             // campoJog2x1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1087, 768);
+            this.ClientSize = new System.Drawing.Size(815, 624);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
@@ -318,6 +346,7 @@
             this.Controls.Add(this.btnSlctBand1);
             this.Controls.Add(this.txtNomeJog2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "campoJog2x1";
             this.Text = "Jogo 2 jogadores- JOG 1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
