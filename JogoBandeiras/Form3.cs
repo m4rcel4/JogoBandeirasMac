@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JogoBandeiras
 {
-    public partial class tresNovosJogadores : Form
+    public partial class cadastroTresNomes : Form
     {
-        public tresNovosJogadores()
+        public cadastroTresNomes()
         {
             InitializeComponent();
         }
@@ -23,6 +23,16 @@ namespace JogoBandeiras
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnJogar3_Click(object sender, EventArgs e)
         {
 
         }

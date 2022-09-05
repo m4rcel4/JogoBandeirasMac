@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace JogoBandeiras
 {
-    public partial class jogadorAntigo : Form
+    public partial class campoJog2x1 : Form
     {
-        public jogadorAntigo()
+        public campoJog2x1()
         {
             InitializeComponent();
         }
+   
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }

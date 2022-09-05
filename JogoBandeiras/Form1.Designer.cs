@@ -1,6 +1,6 @@
 ﻿namespace JogoBandeiras
 {
-    partial class Form1
+    partial class partidas
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -65,8 +65,9 @@
             this.btnTresJogadores.TabIndex = 2;
             this.btnTresJogadores.Text = "3 JOGADORES";
             this.btnTresJogadores.UseVisualStyleBackColor = false;
+            this.btnTresJogadores.Click += new System.EventHandler(this.btnTresJogadores_Click);
             // 
-            // Form1
+            // partidas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -75,7 +76,7 @@
             this.Controls.Add(this.btnTresJogadores);
             this.Controls.Add(this.btnDoisJogadores);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "partidas";
             this.Text = "Seleção de partidas";
             this.ResumeLayout(false);
             this.PerformLayout();

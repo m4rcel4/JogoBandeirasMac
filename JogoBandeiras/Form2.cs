@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace JogoBandeiras
 {
-    public partial class doisNovosJogadores : Form
+    public partial class cadastroDoisNomes : Form
     {
-        public doisNovosJogadores()
+        public cadastroDoisNomes()
         {
             InitializeComponent();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            campoJog2x1 form = new campoJog2x1();
+            this.Hide();
+            form.Show();
         }
     }
 }

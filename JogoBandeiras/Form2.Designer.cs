@@ -1,6 +1,6 @@
 ﻿namespace JogoBandeiras
 {
-    partial class doisNovosJogadores
+    partial class cadastroDoisNomes
     {
         /// <summary>
         /// Required designer variable.
@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtJogador1 = new System.Windows.Forms.TextBox();
             this.txtJogador2 = new System.Windows.Forms.TextBox();
-            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnJogar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -43,7 +43,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(119, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(509, 39);
+            this.label1.Size = new System.Drawing.Size(495, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "CADASTRO DE JOGADORES";
             // 
@@ -79,16 +79,17 @@
             this.txtJogador2.Size = new System.Drawing.Size(143, 22);
             this.txtJogador2.TabIndex = 4;
             // 
-            // btnSalvar
+            // btnJogar
             // 
-            this.btnSalvar.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(262, 254);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(198, 81);
-            this.btnSalvar.TabIndex = 5;
-            this.btnSalvar.Text = "SALVAR NOMES";
-            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnJogar.BackColor = System.Drawing.Color.Bisque;
+            this.btnJogar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJogar.Location = new System.Drawing.Point(262, 254);
+            this.btnJogar.Name = "btnJogar";
+            this.btnJogar.Size = new System.Drawing.Size(198, 81);
+            this.btnJogar.TabIndex = 5;
+            this.btnJogar.Text = "JOGAR";
+            this.btnJogar.UseVisualStyleBackColor = false;
+            this.btnJogar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnVoltar
             // 
@@ -98,21 +99,22 @@
             this.btnVoltar.TabIndex = 6;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
-            // doisNovosJogadores
+            // cadastroDoisNomes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.btnJogar);
             this.Controls.Add(this.txtJogador2);
             this.Controls.Add(this.txtJogador1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "doisNovosJogadores";
+            this.Name = "cadastroDoisNomes";
             this.Text = "Dois novos jogadores";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -126,7 +128,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtJogador1;
         private System.Windows.Forms.TextBox txtJogador2;
-        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnJogar;
         private System.Windows.Forms.Button btnVoltar;
     }
 }
